@@ -1,0 +1,17 @@
+PreParams_file = 'PreParams.mat';
+donor_pre = 'mTFP1';
+acceptor_pre = 'Venus';
+Achannel = 'Venus';
+Dchannel = 'Teal';
+FRETchannel = 'TVFRET';
+prefix = 'pre_';
+param.folder = folder;
+param.bit = 16;
+param.width = 100;
+param.avg = 50;
+param.outname = [folder '_BT'];
+param.dthres = 500;
+param.athres = 800;
+param.nobkgd = 1;
+param.nozero = 0;
+param.ocimg = 0;
